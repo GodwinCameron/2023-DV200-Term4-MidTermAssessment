@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./form.css";
 import axios from "axios";
 
-const Home = () => {
+const Form = () => {
 
     const [apiCars, setApiCar] = useState([]);
 
@@ -51,4 +51,4 @@ const Home = () => {
 
 }
 
-export default Home;
+export default Form;

@@ -1,12 +1,14 @@
 import './App.css';
+import {Route } from 'react-router-dom';
 import Home from './components/home';
-import Form from './components/form_create';
+import Admin from './components/admin';
 
 function App() {
   return (
     <>
     <Home/>
-    <Form />
+    <Route path="/" element={<Home />} />
+          <Route path="/admin" element={<Admin />} />
     </>
   );
 }
