@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../App.css";
+import "./admin.css";
 import NavBar from "./NavBar";
 import Form from "./form_create";
 import axios from "axios";
@@ -35,37 +35,42 @@ const Admin = () => {
       <div className="forms">
         <Form />
       </div>
-
-      <div className="dropdown_box">
-        <select
-          className="dropdown"
-          onChange={(e) => {
-            const selectedCar = cars.find((car) => car.name === e.target.value);
-            setSelected(selectedCar);
-          }}
-          defaultValue="default"
-        >
-          <option value="default" className="dropdown-content">
-            Choose an option
-          </option>
-          {cars.map((car) => (
-            <option
-              className="dropdown-content"
-              key={car._id}
-              value={car.name}
-              style={{ marginLeft: 200 }}
-            >
-              {car.car_make}{" "}{car.name}
+      <div>
+        <div className="dropdown_box">
+          <select
+            className="dropdown"
+            onChange={(e) => {
+              const selectedCar = cars.find(
+                (car) => car.name === e.target.value
+              );
+              setSelected(selectedCar);
+            }}
+            defaultValue="default"
+          >
+            <option value="default" className="dropdown-content">
+              Choose an option
             </option>
-          ))}
-        </select>
+            {cars.map((car) => (
+              <option
+                className="dropdown-content"
+                key={car._id}
+                value={car.name}
+                style={{ marginLeft: 200 }}
+              >
+                {car.car_make} {car.name}
+              </option>
+            ))}
+          </select>
 
-        {selected ? (
-          <div className="holder">
-            <div className="character-name">{selected.name}</div>
-            <button className="delete_button" onClick={handleDelete}>Delete</button>
-          </div>
-        ) : null}
+          {selected ? (
+            <div className="holder">
+              <div className="character-name">{selected.name}</div>
+              <button className="delete_button" onClick={handleDelete}>
+                Delete
+              </button>
+            </div>
+          ) : null}
+        </div>
       </div>
     </div>
   );
