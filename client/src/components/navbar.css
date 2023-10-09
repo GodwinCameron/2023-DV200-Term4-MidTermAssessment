@@ -36,5 +36,8 @@
 .navItem:hover{
     color: #F9E602;
     border-bottom-width: 12px;
-
+}
+a{
+    text-decoration: none;
+    color: #4D4D4D;
 }
