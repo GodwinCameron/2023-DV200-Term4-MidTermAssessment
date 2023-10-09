@@ -54,7 +54,16 @@
   align-items: center;
 }
 
-.header-image {
+.admin_main{
+  background-color: #070707;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-image{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,4 +101,8 @@
 
 .yellow-colour {
   color: #F9E602;
+}
+
+.forms{
+  margin-top: 10vh;
 }
