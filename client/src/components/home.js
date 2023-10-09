@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Image from "../images/header-image.png";
 import NavBar from "./NavBar";
+import Card from "./car-card";
 
 const Home = () => {
   return (
@@ -18,11 +19,12 @@ const Home = () => {
 
       {/* purchase section */}
       <div className="purchase-section">
-        <div className="block-1"></div>
-        <div className="block-2"></div>
-        <div className="block-3"></div>
-        <div className="block-4"></div>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
       </div>
+
     </div>
   );
 };
