@@ -17,6 +17,10 @@
     color: #F9E602;
     font-size: 32px;
   }
+  .message{
+    color: rgb(33, 236, 33);
+    display: none;
+  }
 
   .form_stack{
     display: flex;
