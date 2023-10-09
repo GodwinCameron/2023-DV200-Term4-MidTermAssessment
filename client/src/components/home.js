@@ -26,7 +26,6 @@ const Home = () => {
       </div>
 
       {/* purchase section */}
-<<<<<<< Updated upstream
       <div className="purchase-section">
         {cars.map((car) => (
           <Card
@@ -39,34 +38,6 @@ const Home = () => {
             car_year={car.car_year}
           />
         ))}
-=======
-      <div className='purchase-section'>
-
-      <div className='block-1'>
-          <div className='shop-now-btn'>
-            <div className='btn-text'>Shop Now</div> 
-          </div>
-        </div>
-
-        <div className='block-2'>
-          <div className='shop-now-btn'>
-            <div className='btn-text'>Shop Now</div> 
-          </div>
-        </div>
-
-        <div className='block-3'>
-          <div className='shop-now-btn'>
-            <div className='btn-text'>Shop Now</div> 
-          </div>
-        </div>
-
-        <div className='block-4'>
-          <div className='shop-now-btn'>
-            <div className='btn-text'>Shop Now</div> 
-          </div>
-        </div>
-
->>>>>>> Stashed changes
       </div>
 
     </div>
