@@ -1,0 +1,54 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 45vw;
+    background-color: #070707;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    background-color: white;
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+}
+
+.card-content {
+    display: flex;
+    width: 80%;
+}
+
+.text-container {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.card-btn {
+    display: flex;
+    border-radius: 10vh;
+    background-color: #f9e602;
+    height: 5vh;
+    width: 7vw;
+    margin-top: 2vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.card-name{
+    color: #f9e602;
+}
+
+.card-price{
+    color: white;
+}
