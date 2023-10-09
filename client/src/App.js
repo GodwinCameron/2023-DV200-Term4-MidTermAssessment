@@ -1,15 +1,15 @@
 import './App.css';
-import {Route, Routes } from 'react-router-dom';
+import {Route, Router } from 'react-router-dom';
 import Home from './components/home';
 import Admin from './components/admin';
 
 function App() {
   return (
    
-    <Routes>
+    <Router>
     <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
-          </Routes>
+          </Router>
    
   );
 }
