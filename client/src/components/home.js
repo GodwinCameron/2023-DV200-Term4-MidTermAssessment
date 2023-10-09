@@ -29,6 +29,7 @@ const Home = () => {
       <div className="purchase-section">
         {cars.map((car) => (
           <Card
+            id={car._id}
             key={car._id}
             name={car.name}
             car_make={car.car_make}
