@@ -1,39 +1,40 @@
-import React, {} from 'react';
-import "../App.css";
+import React, { } from 'react';
+import "./form.css";
 
 const Home = () => {
 
     return (
-      <div className='main'>
-<form>
-  <label>
-    Name:
-    <input type="text" name="name" />
-  </label>
+        <div className='form_main'>
+            <h1 className='form_header'>Create New Car</h1>
+            <form className='form_stack'>
+                <label className='label'>
+                    Name:
+                    <input className='form_input' type="text" name="name" />
+                </label>
 
-  <label>
-    Car Make:
-    <input type="text" name="car_make" />
-  </label>
+                <label className='label'>
+                    Car Make:
+                    <input className='form_input' type="text" name="car_make" />
+                </label>
 
-  <label>
-    Car Model:
-    <input type="text" name="car_model" />
-  </label>
+                <label className='label'>
+                    Car Model:
+                    <input className='form_input' type="text" name="car_model" />
+                </label>
 
-  <label>
-    Chasis Number:
-    <input type="number" name="chasis_number" />
-  </label>
+                <label className='label'>
+                    Chasis Number:
+                    <input className='form_input' type="number" name="chasis_number" />
+                </label>
 
-  <label>
-    Car Year:
-    <input type="number" name="car_year" />
-  </label>
+                <label className='label'>
+                    Car Year:
+                    <input className='form_input' type="number" name="car_year" />
+                </label>
 
-  <input type="submit" value="Submit" />
-</form>
-      </div>
+                <input className='form_sumbit' type="submit" value="Create" />
+            </form>
+        </div>
     );
 
 }
