@@ -1,15 +1,16 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import Home from './components/home';
-import Form from './components/form';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/home";
+import Admin from "./components/admin";
 
 function App() {
   return (
-    <>
-    <Home/>
-    <NavBar />
-    <Form />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
