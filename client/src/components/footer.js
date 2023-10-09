@@ -2,36 +2,35 @@ import React from 'react';
 import './navbar.css';
 
 // Paths for the icons
-import Logo from '../assets/icons/Logo.svg';
+import FooterLogo from '../assets/icons/footer_logo.svg';
 import InstagramIcon from '../assets/icons/instagram-dark.svg';
 import FacebookIcon from '../assets/icons/facebook-dark.svg';
 
 const Footer = () => {
   return (
     <div className='text-center text-lg-start text-white testerClassName'>
-     
-   
+  
 
       {/* Footer Content */}
       <section className='footer'>
-        {/* Column 2: Products */}
+        {/* Row 1: Logo */}
         <div className='logo'>
-          <img src={Logo} alt='Logo' width="198" />
+        <img src={FooterLogo} alt='Footer Logo' width="135" /> {/* Updated logo source */}
         </div>
 
-        {/* Additional Rows (if needed) */}
         {/* You can add more rows with the same structure here */}
         <div className='footer-column'>
-          <div className='text-uppercase fw-bold mb-4'>
-            <i className="fas fa-box me-3" />
-            Products
-          </div>
-          <ul>
-            <li>Ford</li>
-            <li>Volvo</li>
-            <li>Range</li>
-          </ul>
-        </div>
+  <div className='text-uppercase fw-bold mb-4'>
+    <i className="fas fa-box me-3" />
+    Products
+  </div>
+  <ul style={{ listStyle: 'none', padding: 0 }}>
+    <li>Ford</li>
+    <li>Volvo</li>
+    <li>Range</li>
+  </ul>
+</div>
+
 
         <div className='footer-column'>
           <div className='text-uppercase fw-bold mb-4'>
