@@ -2,21 +2,25 @@ const mongoose = require('mongoose')
 
 const CarSchema = mongoose.Schema({
     name: {
-        type: String
+        type: String,
+        required : true,
     },
     car_make: {
-        type: String
+        type: String,
+        required : true,
     },
     car_model: {
-        type: String
+        type: String,
+        required : true,
     },
     chasis_number: {
-        type: String
+        type: Number,
+        required : true,
     },
-    car_model: {
-        type: String
+    car_year: {
+        type: Number,
+        required : true,
     },
-
 });
 
-module.exports = mongoose.model("Users", UserSchema)
+module.exports = mongoose.model("Cars", CarSchema)

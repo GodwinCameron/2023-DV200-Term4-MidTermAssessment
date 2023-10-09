@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
+const carRoute = require('./routes/car')
 
 
 require('dotenv/config')
@@ -14,7 +15,7 @@ app.use(cors({
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
-
+app.use(carRoute)
 
 mongoose.connect(process.env.DB_CONNECTION, {
     useNewUrlParser: true,
