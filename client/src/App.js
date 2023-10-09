@@ -6,9 +6,9 @@ import Form from './components/form';
 function App() {
   return (
     <>
-    {/* <Home/> */}
+    <Home/>
     <NavBar />
-    {/* <Form /> */}
+    <Form />
     </>
   );
 }
