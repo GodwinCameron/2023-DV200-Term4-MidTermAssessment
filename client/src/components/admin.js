@@ -55,7 +55,7 @@ const Admin = () => {
               value={car.name}
               style={{ marginLeft: 200 }}
             >
-              {car.name}
+              {car.car_make}{" "}{car.name}
             </option>
           ))}
         </select>
