@@ -98,6 +98,21 @@
   justify-content: center;
 }
 
+.shop-now-btn{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vh;
+  height: 5vh;
+  background-color: #F9E602;
+  border-radius: 1vh;
+  text-align: center;
+}
+
+.btn-text{
+
+}
+
 
 .yellow-colour {
   color: #F9E602;
