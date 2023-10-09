@@ -5,7 +5,7 @@ const CarSchema = require('../models/cars');
 const router = express();
 
 //Read all
-router.get('/api/car', async(req, res) =>{
+router.get('/api/allCars', async(req, res) =>{
     const findcar = await CarSchema.find()
     res.json(findcar)
 })
