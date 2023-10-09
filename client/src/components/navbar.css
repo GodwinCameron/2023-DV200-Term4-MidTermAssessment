@@ -3,12 +3,13 @@
 .nav{
     display: flex;
     flex-direction: row;
-    height: 17vh;
+    height: 10vh;
     width: 80%;
     justify-content: center;
     align-items: flex-end;
     border: 0px solid #4D4D4D;
     border-bottom-width: 2px;
+    color: #4D4D4D;
 }
 .glensoundsTitle{
     font-family: 'Poppins';
@@ -17,6 +18,7 @@
     margin-right: auto;
     margin-left: 0.1vw;
     margin-bottom: 1.2vh;
+    color: #F9E602;
 }
 .navItem{
     display: flex;
