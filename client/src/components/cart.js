@@ -3,7 +3,7 @@ import "../App.css";
 import NavBar from "./NavBar";
 import Form from "./form_create";
 
-const Admin = () => {
+const Cart = () => {
     return (
         <div className="admin_main">
 
@@ -15,4 +15,4 @@ const Admin = () => {
     );
 };
 
-export default Admin;
+export default Cart;
