@@ -4,10 +4,16 @@ const CarSchema = mongoose.Schema({
     name: {
         type: String
     },
-    password: {
+    car_make: {
         type: String
     },
-    type: {
+    car_model: {
+        type: String
+    },
+    chasis_number: {
+        type: String
+    },
+    car_model: {
         type: String
     },
 
