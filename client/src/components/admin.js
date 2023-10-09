@@ -9,7 +9,7 @@ const Admin = () => {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/car`).then((res) => {
+    axios.get(`http://localhost:5000/api/allCars`).then((res) => {
       setCars(res.data);
     });
   }, []);
