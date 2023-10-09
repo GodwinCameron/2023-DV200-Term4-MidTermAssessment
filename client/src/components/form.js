@@ -5,23 +5,23 @@
   </label>
 
   <label>
-    Name:
-    <input type="text" name="name" />
+    Car Make:
+    <input type="text" name="car_make" />
   </label>
 
   <label>
-    Name:
-    <input type="text" name="name" />
+    Car Model:
+    <input type="text" name="car_model" />
   </label>
 
   <label>
-    Name:
-    <input type="text" name="name" />
+    Chasis Number:
+    <input type="number" name="chasis_number" />
   </label>
-  
+
   <label>
-    Name:
-    <input type="text" name="name" />
+    Car Year:
+    <input type="number" name="car_year" />
   </label>
 
   <input type="submit" value="Submit" />
