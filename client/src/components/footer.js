@@ -54,9 +54,8 @@ const Footer = () => {
       </section>
 
       {/* Bottom Section */}
-      <div className='bottom-section'>
-        © {new Date().getFullYear()} GlenSpares. All rights reserved.
-      </div>
+      <div className='footer text-center'>
+</div>
     </div>
   );
 };
