@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 17vh;
+    width: 80%;
+    justify-content: center;
+    align-items: flex-end;
+    border: 0px solid #4D4D4D;
+    border-bottom-width: 2px;
+}
+.glensoundsTitle{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    display: flex;
+    margin-right: auto;
+    margin-left: 0.1vw;
+    margin-bottom: 1.2vh;
+}
+.navItem{
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-left: 4vw;
+    cursor: pointer;
+    height: 4vh;
+    border: 0px solid #4D4D4D;
+}
+.activeNavItem{
+    color: #F9E602;
+}
+.navItem:hover{
+    color: #F9E602;
+    border-bottom-width: 12px;
+
+}
