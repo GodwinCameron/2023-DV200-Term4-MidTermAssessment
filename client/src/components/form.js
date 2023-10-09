@@ -8,7 +8,7 @@ const Home = () => {
 
     const handleCreateCar = async (id) => {
         try {
-            axios.create(`http://localhost:5000/api/car/${id}`);
+            axios.create(`http://localhost:3000/api/car/${id}`);
             setApiCar(apiCars.filter(car => car._id !== id));
         } catch (error) {
             console.log(error);
