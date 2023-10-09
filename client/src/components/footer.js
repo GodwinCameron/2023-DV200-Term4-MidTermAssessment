@@ -28,8 +28,13 @@ const Footer = () => {
       </section>
 
       {/* Footer Content */}
+<<<<<<< Updated upstream
       <section className='footer'>
   <MDBContainer className='text-center text-md-start mt-5 alignFooterCol1'>
+=======
+   <section className='footer'>
+  <MDBContainer className='text-center text-md-start mt-5'>
+>>>>>>> Stashed changes
     <MDBRow className='mt-3'>
       {/* Column 1: Logo */}
       <MDBCol md="3" lg="3" xl="3" className='footer-column'>
