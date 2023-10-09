@@ -1,3 +1,10 @@
+import React, {} from 'react';
+import "../App.css";
+
+const Home = () => {
+
+    return (
+      <div className='main'>
 <form>
   <label>
     Name:
@@ -26,3 +33,9 @@
 
   <input type="submit" value="Submit" />
 </form>
+      </div>
+    );
+
+}
+
+export default Home;
