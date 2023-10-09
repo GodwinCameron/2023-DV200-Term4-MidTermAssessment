@@ -31,6 +31,7 @@
 }
 .activeNavItem{
     color: #F9E602;
+    text-decoration: none;
 }
 .navItem:hover{
     color: #F9E602;
