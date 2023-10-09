@@ -39,5 +39,65 @@
 }
 a{
     text-decoration: none;
-    color: #4D4D4D;
+    color: #4D4D4D;}/* Customize the columns in the footer */.footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-family: 'Poppins', sans-serif;
 }
+  
+/* Style individual columns */
+.footer-column {
+flex-basis: calc(25% - 1rem); /* Adjust the width as needed */
+padding: 1rem;
+text-align: left;
+color: #676767;
+}
+  
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+.footer-column {
+    flex-basis: calc(50% - 1rem); /* Adjust the width for smaller screens */
+}
+}
+  
+/* Customize the columns in the footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #676767; /* Set the text color to #676767 */
+  }
+  
+  /* Style individual columns */
+  .footer-column {
+    flex-basis: calc(25% - 1rem); /* Adjust the width as needed */
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .footer-column {
+      flex-basis: calc(50% - 1rem); /* Adjust the width for smaller screens */
+    }
+  }
+  
+  /* Style the social icons */
+  .social-link {
+    margin-top: 1rem;
+  }
+  
+  /* Center-align the logo in the footer */
+  .logo {
+    text-align: center;
+  }
+  
+  /* Style the bottom section */
+  .bottom-section {
+    background-color: black; /* Change the background color to black */
+    padding: 1rem;
+    text-align: center;
+  }
+  
