@@ -9,7 +9,7 @@ const NavBar  = () => {
             <div className="navItem">Shop</div>
             <div className="navItem">Contact Us</div>
             <div className="navItem">Cart</div>
-
+            <div className="navItem">Admin</div>
         </div>
     );
 }
