@@ -9,7 +9,7 @@ import FacebookIcon from '../assets/icons/facebook-dark.svg';
 
 const Footer = () => {
   return (
-    <MDBFooter bgColor='black' className='text-center text-lg-start text-white'>
+    <MDBFooter bgColor='black' className='text-center text-lg-start text-white testerClassName'>
       {/* Top Section */}
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         {/* Logo */}
@@ -29,7 +29,7 @@ const Footer = () => {
 
       {/* Footer Content */}
       <section className='footer'>
-  <MDBContainer className='text-center text-md-start mt-5'>
+  <MDBContainer className='text-center text-md-start mt-5 alignFooterCol1'>
     <MDBRow className='mt-3'>
       {/* Column 1: Logo */}
       <MDBCol md="3" lg="3" xl="3" className='footer-column'>
@@ -68,7 +68,9 @@ const Footer = () => {
         {/* Add your contact info here */}
       </MDBCol>
     </MDBRow>
+    
   </MDBContainer>
+  
 </section>
 
       {/* Bottom Section */}
