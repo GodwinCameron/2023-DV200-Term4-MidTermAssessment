@@ -1,7 +1,19 @@
-import React, { } from 'react';
+import React, { useState } from 'react';
 import "./form.css";
+import axios from "axios";
 
 const Home = () => {
+
+    const [apiCars, setApiCar] = useState([]);
+
+    const handleCreateCar = async (id) => {
+        try {
+            axios.create(`http://localhost:5000/api/car/${id}`);
+            setApiCar(apiCars.filter(car => car._id !== id));
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     return (
         <div className='form_main'>
