@@ -63,7 +63,7 @@ const Admin = () => {
         {selected ? (
           <div className="holder">
             <div className="character-name">{selected.name}</div>
-            <button onClick={handleDelete}>Delete</button>
+            <button className="delete_button" onClick={handleDelete}>Delete</button>
           </div>
         ) : null}
       </div>
