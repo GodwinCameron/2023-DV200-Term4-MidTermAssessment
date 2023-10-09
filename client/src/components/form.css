@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;700&display=swap');
+
+.form_main{
+    background-color: #070707;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    position: relative;
+    width: 50vh;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_header{
+    color: #F9E602;
+    font-size: 32px;
+  }
+
+  .form_stack{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label{
+    color: #FFFFFF;
+    font-size: 20px;
+    display:block;
+    margin-bottom: 2vh;
+  }
+
+  .form_input{
+    background-color: #FFFFFF;
+    color: #070707;
+    border-radius: 50px;
+    border: none;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    height: 4vh;
+    width: 35vh;
+    display:block;
+    margin-top: 0.5vh;
+  }
+
+  .form_sumbit{
+    background-color: #F9E602;
+    color: #070707;
+    border-radius: 50px;
+    border: none;
+    height: 4vh;
+    width: 37vh;
+    display:block;
+    margin-top: 0.5vh;
+  }
